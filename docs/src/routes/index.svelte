@@ -14,7 +14,7 @@
     <header>
       <img src="logo-no-bg.svg" alt="Attractions logo" />
       <H1>Attractions</H1>
-      <a href="./roszedocs/docs/changelog" class="hide-on-tb-more" sapper:prefetch>
+      <a href="./docs/changelog" class="hide-on-tb-more" sapper:prefetch>
         v{process.latest_version}
       </a>
     </header>
@@ -23,7 +23,7 @@
       <a href="https://svelte.dev">Svelte</a>.
     </p>
     <div class="actions">
-      <Button filled href="./roszedocs/docs">
+      <Button filled href="./docs">
         <BookOpenIcon size="24" class="mr" />
         docs
       </Button>
@@ -45,7 +45,7 @@
     <p>
       {process.license}
       licensed &nbsp;•&nbsp;
-      <a href="./roszedocs/docs/changelog" sapper:prefetch>v{process.latest_version}</a>
+      <a href="./docs/changelog" sapper:prefetch>v{process.latest_version}</a>
     </p>
   </footer>
 </main>

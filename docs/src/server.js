@@ -8,7 +8,7 @@ const dev = NODE_ENV === 'development';
 
 polka()
   .use(
-    SAPPER_APP_BASEPATH || '/',
+    SAPPER_APP_BASEPATH || '/roszedocs/',
     compression({ threshold: 0 }),
     sirv('static', { dev }),
     sapper.middleware()
