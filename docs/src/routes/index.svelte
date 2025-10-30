@@ -23,7 +23,7 @@
       <a href="https://svelte.dev">Svelte</a>.
     </p>
     <div class="actions">
-      <Button filled href="./docs">
+      <Button filled href="./roszedocs/docs">
         <BookOpenIcon size="24" class="mr" />
         docs
       </Button>
@@ -45,7 +45,7 @@
     <p>
       {process.license}
       licensed &nbsp;•&nbsp;
-      <a href="./docs/changelog" sapper:prefetch>v{process.latest_version}</a>
+      <a href="./roszedocs/docs/changelog" sapper:prefetch>v{process.latest_version}</a>
     </p>
   </footer>
 </main>
