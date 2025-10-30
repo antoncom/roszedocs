@@ -14,7 +14,7 @@
     <header>
       <img src="logo-no-bg.svg" alt="Attractions logo" />
       <H1>Attractions</H1>
-      <a href="./docs/changelog" class="hide-on-tb-more" sapper:prefetch>
+      <a href="./roszedocs/docs/changelog" class="hide-on-tb-more" sapper:prefetch>
         v{process.latest_version}
       </a>
     </header>
