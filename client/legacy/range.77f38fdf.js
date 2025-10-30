@@ -1,0 +1,1 @@
+function e(e,n){let r=arguments.length>2&&void 0!==arguments[2]?arguments[2]:1;return function*(){if(null==n&&(n=e,e=0),0===r)throw new Error("Range must have a non-zero step.");if(!(e>=n&&r>0||e<=n&&r<0))for(let t=e;e<n?t<n:t>n;t+=r)yield t}()}export{e as r};
