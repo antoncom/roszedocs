@@ -1,6 +1,6 @@
 {
   // Change this to match your project
-  "include": ["./**/*.js", "./**/*.ts"],
+  "include": ["roszedocs/**/*.js", "roszedocs/**/*.ts"],
   "exclude": [
     "node_modules",
     "./rollup.config.js",
